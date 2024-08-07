@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.bg-container {
+    background-image: linear-gradient(45deg, #030000, #07070780);
+    height: 100vh;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading {
+    color: #b8cbf5;
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-weight: 500;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+    padding: 8px;
+    border-style: solid;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+.calculator {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ede9f3;
+    background: transparent;
+    padding: 20px;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.input-text {
+    width: 250px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background: transparent;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+.input-text::placeholder {
+    color: #d0c7f0;
+
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-width: 0px;
+    margin: 5px;
+    border-radius: 20px;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: -8px 8px 15px rgba(255, 255, 255, 0.1);
+
+
+}
+
+.operator {
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.equal {
+    background-color: #d6aa1c;
+    color: black;
+
+}
+
+.spec {
+    color: rgb(196, 217, 239);
+}
